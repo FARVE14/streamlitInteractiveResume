@@ -11,11 +11,13 @@ from src import UserDefinedString, Icons, ReadJsonFiles, img_to_html
 from pathlib import Path
 
 st.set_page_config(
-    page_title=UserDefinedString.page_title,
+    page_title=UserDefinedString.user_name,
     page_icon=Icons.open_book,
     layout="wide"
 )
 
+current_wd = Path().absolute()
+print(current_wd)
 assets = Path().absolute() / "assets"
 
 read_json_file = ReadJsonFiles()
@@ -23,11 +25,11 @@ st.session_state["json_data"] = read_json_file
 
 introduction_data = read_json_file.get_introduction_data()
 
-
 # Adding padding to the HTML page
 
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allow_html=True)
 
+st.title(UserDefinedString.user_name)
 
 add_logo(assets / "faisalAhmed.png", height=275)
 

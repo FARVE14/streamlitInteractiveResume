@@ -3,24 +3,30 @@
     "institute_name": "RPTU Kaiserslautern-Landau, Germany",
     "degree_name": "Master of Engineering (MEng)",
     "course_name": "Software Engineering for Embedded Systems",
+    "overview": "Organized in collaboration with the Fraunhofer Institute for Experimental Software Engineering (IESE), Kaiserslautern. \nThis professional Master's program focused on software engineering with a special emphasis on embedded systems. \nThe program provided theoretical knowledge and practical skills in project management, software quality assurance, \nsoftware product line engineering, real-time systems, and more.",
     "from_date": "2017",
     "end_date": "2020",
-    "subjects": []
+    "skills": ["Embedded Systems", "Software Requirements Engineering", "Requirements Analysis", "Root Cause Analysis","Agile Methodologies", "SQL", "CAN", "J1939","Test Strategy","SDLC", "STLC"],
+    "subjects": ["Project Management", "Software Quality Assurance", "Software Product Line Engineering", "Requirements Engineering", "Software Architecture for Embedded Software Systems", "Component-Based Software Development", "Model-Based Component Engineering", "Real-Time Systems & Dependability Engineering"]
   },
   {
     "institute_name": "Integral University, Lucknow, India",
     "degree_name": "Bachelor of Technology (BTech)",
-    "course_name": "Electronics and Communications Engineering",
+    "course_name": "Electronics & Communications Engineering",
+    "overview": "",
     "from_date": "2008",
     "end_date": "2012",
+    "skills": [],
     "subjects": []
   },
   {
     "institute_name": "Bright Land Inter College, Lucknow, India",
     "degree_name": "Intermediate School",
     "course_name": "X+2",
+    "overview": "",
     "from_date": "2006",
     "end_date": "2012",
+    "skills": [],
     "subjects": []
   }
 ]
