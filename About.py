@@ -29,17 +29,20 @@ st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allo
 
 st.title(UserDefinedString.user_name)
 
-add_logo(assets / "faisalAhmed.png", height=275)
+logo_image_path = assets / "faisalAhmed.png"
+linkedin_logo_path = assets / "LinkedIn.png"
+gmail_logo_path = assets / "gmail.png"
+
+add_logo(logo_image_path.__str__(), height=275)
 
 st.sidebar.subheader("Contact")
 
-
 st.sidebar.markdown(f"""
-<a href={introduction_data.linkedin}>{img_to_html(img_path= assets / "LinkedIn.png")}
+<a href={introduction_data.linkedin}>{img_to_html(img_path=linkedin_logo_path.__str__())}
 """, unsafe_allow_html=True)
 
 st.sidebar.markdown(f"""
-<a href={introduction_data.gmail}>{img_to_html(img_path=assets / "gmail.png")}
+<a href={introduction_data.gmail}>{img_to_html(img_path=gmail_logo_path.__str__())}
 """, unsafe_allow_html=True)
 
 st.subheader("Professional Summary")
@@ -73,4 +76,3 @@ for education_data in read_json_file.get_education_details():
     
         {education_data.institute_name}, {education_data.from_date} - {education_data.end_date}
 ''')
-

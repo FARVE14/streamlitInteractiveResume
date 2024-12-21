@@ -6,7 +6,6 @@ Created On: 1-12-2024
 __author__ = "Faisal Ahmed"
 
 from pydantic import BaseModel
-from typing import Optional
 
 
 class RoleSchema(BaseModel):
@@ -42,4 +41,3 @@ class Education(BaseModel):
     end_date: str
     skills: list[str] | None
     subjects: list[str] | None
-
