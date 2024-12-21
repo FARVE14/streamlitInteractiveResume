@@ -26,7 +26,7 @@ introduction_data = read_json_file.get_introduction_data()
 
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allow_html=True)
 
-add_logo("assets\\faisalAhmed.png", height=275)
+add_logo(r"assets\faisalAhmed.png", height=275)
 
 st.sidebar.subheader("Contact")
 
