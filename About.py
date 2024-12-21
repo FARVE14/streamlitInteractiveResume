@@ -8,13 +8,15 @@ __author__ = "Faisal Ahmed"
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
 from src import UserDefinedString, Icons, ReadJsonFiles, img_to_html
-
+from pathlib import Path
 
 st.set_page_config(
     page_title=UserDefinedString.page_title,
     page_icon=Icons.open_book,
     layout="wide"
 )
+
+assets = Path().absolute() / "assets"
 
 read_json_file = ReadJsonFiles()
 st.session_state["json_data"] = read_json_file
@@ -26,17 +28,17 @@ introduction_data = read_json_file.get_introduction_data()
 
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allow_html=True)
 
-add_logo(r"assets\faisalAhmed.png", height=275)
+add_logo(assets / "faisalAhmed.png", height=275)
 
 st.sidebar.subheader("Contact")
 
 
 st.sidebar.markdown(f"""
-<a href={introduction_data.linkedin}>{img_to_html(img_path="assets/LinkedIn.png")}
+<a href={introduction_data.linkedin}>{img_to_html(img_path= assets / "LinkedIn.png")}
 """, unsafe_allow_html=True)
 
 st.sidebar.markdown(f"""
-<a href={introduction_data.gmail}>{img_to_html(img_path="assets/gmail.png")}
+<a href={introduction_data.gmail}>{img_to_html(img_path=assets / "gmail.png")}
 """, unsafe_allow_html=True)
 
 st.subheader("Professional Summary")
