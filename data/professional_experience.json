@@ -8,7 +8,7 @@
   "roles": [
     {"role_name":  "Technical Lead, Software Engineering, Telematics Data",
       "responsibilities": "Joined the Telematics team as Technical Lead for Measurement Data. Responsible for generating mock data to validate the correct recording and transmission of data from real trucks. Ensured that the device accurately records data and sends it to the data warehouse. Conducted thorough analysis of both mock data and real truck data, involving data cleaning, wrangling, and analysis. Ensured that the collected data was processed correctly and validated its transmission to other consumers.",
-      "skills": "Data Validation, Mock Data Generation, Data Cleaning, Data Wrangling, Data Analysis, Streamlit, Python, Pandas, Git/Github, AzureDevOps, Snowflake, SQL, Telematics Systems, CAN, J1939, ALM",
+      "skills": "Data Validation, Mock Data Generation, Data Cleaning, Data Wrangling, Data Analysis, Streamlit, Python, Pandas, Git/Github, AzureDevOps, Snowflake, SQL, Telematics Systems, CAN, J1939, ALM, Postman",
       "from_date": "Nov-2023",
       "end_date": "Present",
       "domain": "Automotive, Telematics Data Collection, Data Processing, Data Validation"
@@ -25,7 +25,7 @@
   "roles": [
     {"role_name":  "Senior Software Engineer",
       "responsibilities": "Joined eBay in the Ads group, transitioning to the e-commerce domain. Responsible for validating algorithms, automating tests using Python, and creating CI/CD pipelines in Jenkins. Performed data analysis using Grafana to monitor and alert on key metrics. Optimized the regression test cycle by improving the code base and generating mock data to validate business logic, significantly reducing regression time.",
-      "skills": "Algorithm Validation, Data Validation, Data Cleaning, Data Processing, Data Analysis with Grafana, Mock Data Generation, Data Monitoring and Alerts, Python, Agile, Git/Github, Jenkins, SQL, CI/CD, Pandas",
+      "skills": "Algorithm Validation, Data Validation, Data Cleaning, Data Processing, Data Analysis with Grafana, Mock Data Generation, Data Monitoring and Alerts, Python, Agile, Git/Github, Jenkins, SQL, CI/CD, Pandas, Jmeter, Postman",
       "from_date": "Nov-2022",
       "end_date": "Oct-2023",
       "domain": "e-Commerce, Promoted Listings, Promoted Display, ADS"
