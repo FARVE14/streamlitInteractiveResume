@@ -16,8 +16,6 @@ st.set_page_config(
     layout="wide"
 )
 
-current_wd = Path().absolute()
-print(current_wd)
 assets = Path().absolute() / "assets"
 
 read_json_file = ReadJsonFiles()
