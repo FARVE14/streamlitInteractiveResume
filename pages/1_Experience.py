@@ -31,7 +31,6 @@ for data in experience_data:
     if data.company in selected_company or (not selected_company):
         st.subheader(data.company)
         for role in data.roles:
-            # st.markdown(f"- Role: {role.role_name} ( {role.from_date} - {role.end_date} )")
             with st.expander(f"Role: {role.role_name} ( {role.from_date} - {role.end_date} )"):
                 st.write("**Responsibilities**")
                 st.write(role.responsibilities)

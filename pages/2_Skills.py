@@ -29,7 +29,7 @@ selected_skill = st.sidebar.multiselect("Skill", list_of_skills)
 
 for companies in experience_data:
     for roles in companies.roles:
-        if any(skill in roles.skills for skill in selected_skill) or len(selected_skill) ==0 :
+        if any(skill in roles.skills for skill in selected_skill) or len(selected_skill) == 0:
             st.subheader(f"{roles.role_name} - {companies.company}")
             with st.expander("Skills Used:"):
                 for skill in sorted(roles.skills.split(",")):

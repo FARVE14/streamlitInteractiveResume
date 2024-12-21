@@ -5,14 +5,12 @@ Created On: 1-12-2024
 
 __author__ = "Faisal Ahmed"
 
-user_name = "Faisal Ahmed"
-
 
 class UserDefinedString:
-    page_title: str = f"{user_name}"
+    user_name: str = "Faisal Ahmed"
     page_experience: str = f"Experience"
-    page_skills: str = f"{user_name} Skills"
-    page_education: str = f"{user_name} Education"
+    page_skills: str = f"Skills"
+    page_education: str = f"Education"
     # page_references: str
 
 
