@@ -1,0 +1,87 @@
+[
+  {
+
+  "company": "DAF Trucks",
+  "location": "Eindhoven, Netherlands",
+  "from_date": "Nov-2023",
+  "end_date" : "Present",
+  "roles": [
+    {"role_name":  "Technical Lead for Measurement Data",
+      "responsibilities": "Joined the Telematics team as Technical Lead for Measurement Data. Responsible for generating mock data to validate the correct recording and transmission of data from real trucks. Ensured that the device accurately records data and sends it to the data warehouse. Conducted thorough analysis of both mock data and real truck data, involving data cleaning, wrangling, and analysis. Ensured that the collected data was processed correctly and validated its transmission to other consumers.",
+      "skills": "Data Validation, Mock Data Generation, Data Cleaning, Data Wrangling, Data Analysis, Streamlit, Python, Pandas, Git/Github, AzureDevOps, Snowflake, SQL, Telematics Systems, CAN, J1939, ALM",
+      "from_date": "Nov-2023",
+      "end_date": "Present",
+      "domain": "Automotive, Telematics Data Collection, Data Processing, Data Validation"
+    }
+  ]
+
+},
+
+{
+  "company": "eBay Management B.V.",
+  "location": "Amsterdam, Netherlands",
+  "from_date": "Nov-2022",
+  "end_date" : "Oct-2023",
+  "roles": [
+    {"role_name":  "Senior Software Engineer",
+      "responsibilities": "Joined eBay in the Ads group, transitioning to the e-commerce domain. Responsible for validating algorithms, automating tests using Python, and creating CI/CD pipelines in Jenkins. Performed data analysis using Grafana to monitor and alert on key metrics. Optimized the regression test cycle by improving the code base and generating mock data to validate business logic, significantly reducing regression time.",
+      "skills": "Algorithm Validation, Data Validation, Data Cleaning, Data Processing, Data Analysis with Grafana, Mock Data Generation, Data Monitoring and Alerts, Python, Agile, Git/Github, Jenkins, SQL, CI/CD",
+      "from_date": "Nov-2022",
+      "end_date": "Oct-2023",
+      "domain": "e-Commerce, Promoted Listings, Promoted Display, ADS"
+    }
+  ]
+},
+
+  {
+  "company": "Trane Technologies (formerly Known as Ingersoll Rand)",
+  "location": "Bengaluru, India",
+  "from_date": "Mar-2015",
+  "end_date" : "Oct-2022",
+  "roles": [
+    {"role_name":  "Senior Systems Engineer, System Engineering",
+      "from_date": "March-2022",
+      "end_date" : "Oct-2022",
+      "responsibilities": "Challenged myself with a new role focusing on the development of a robust HVAC control system for multi-zone environments. Led the requirement elicitation and analysis process. Coordinated with various teams including business, modeling, software development, and electrical component teams to ensure seamless integration. Facilitated the development of a highly efficient and reliable HVAC control system by aligning cross-functional teams and translating business requirements into actionable plans.",
+      "skills": "System Requirement Elicitation, Requirement Analysis, HVAC, Cross-functional Team Coordination, Systems Engineering, Business Requirements Management, Modeling Team Collaboration, System Integration"
+    },
+    {"role_name":  "Technical Lead, Software Engineering",
+      "from_date": "July-2019",
+      "end_date" : "Feb-2022",
+      "responsibilities": "Led the software test team for NPD projects, overseeing the design of test methodologies, test plans, and related test artifacts. Reviewed test documents, tracked test activities, and collaborated with internal customers to plan and execute testing. Led the test automation team, developing and maintaining automation frameworks and tools. Designed and implemented software simulators using IoT and data acquisition systems. Participated in quality assurance activities, change control board meetings, and provided technical consultation on automation tool development across business units.",
+      "skills": "Tableau, Software Requirement Elicitation, Agile, Scrum, JIRA, Test Automation, SQL,  IoT, Data Acquisition, Test Management, System Testing, HVAC, Python, PyQT, Failure Mode and Effects Analysis (FMEA), DVPnR, Root Cause Analysis, CANalyzer, CANoe, CAPL, CAN, J1939",
+      "domain": "Automotive Transport Refrigeration System, HVAC system control algorithms, Telematics data validation, Automation via Python, Automation Framework Development"
+    },
+    {"role_name":  "Senior Software Engineer, Software Engineering",
+      "from_date": "July-2016",
+      "end_date" : "June-2019",
+      "responsibilities": "Led the test automation and tools development team while managing manual testing activities. Designed and developed architecture for test tools. Defined and implemented strategies for automated testing and manual test plans.",
+      "skills": "Tableau, Software Requirement Elicitation, Agile, Scrum, JIRA, Test Automation, IoT, Data Acquisition, Test Management, System Testing, HVAC, PyQT, Failure Mode and Effects Analysis (FMEA), CANalyzer, CANoe, CAPL, CAN, J1939",
+      "domain": "Automotive Transport Refrigeration System, HVAC system control algorithms, Telematics data validation, Automation via Python, Automation Framework Development"
+    },
+    {"role_name":  "Software Test Engineer, Software Engineering",
+      "from_date": "April-2015",
+      "end_date" : "June-2016",
+      "domain": "Automotive Transport Refrigeration System, HVAC system control algorithms, Telematics data validation, Automation via Python ",
+      "responsibilities": "Validated control algorithms for HVAC systems in trucks and trailers. Tested and validated data collected by telematics devices connected to HVAC systems. Developed a Python-based tool to automate manual test cases, improving efficiency and reducing testing time.",
+      "skills": "Python, RS232, HVAC, CAN, Peak-CAN, Doors, ALM, SDLC, STLC, Defect Management"
+    }
+  ]
+},
+
+  {
+  "company": "Robert Bosch Engineering Services",
+  "location": "Bengaluru, India",
+  "from_date": "Jul-2012",
+  "end_date" : "Mar-2015",
+  "roles": [
+    {"role_name":  "Software Test Engineer",
+      "responsibilities": "Performed smoke, validation, and regression testing of active safety systems for 2-wheelers and 4-wheelers for JOEM. Created and configured test setups using ETAS LabCar. Executed test cases, analyzed results, and documented defects. Conducted requirement-based system-level testing and validated corrective actions.",
+      "skills": "V-Model, System Testing, Active Safety System, CAN, OBD, CANalyzer, CANoe, Labcar, SDLC, STLC, Defect Management, CAPL, Doors",
+      "domain": "Automotive Safety Systems, ABS (Anti-lock Braking System), ESP (Electronic Stability Program), TCS (Traction Control System), HHC (Hill Hold Control), HDC (Hill Descent Control)",
+      "from_date": "Jul-2012",
+      "end_date" : "Mar-2015"
+    }
+  ]
+}
+]
