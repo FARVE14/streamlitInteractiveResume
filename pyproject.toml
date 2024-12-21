@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "faisalahmedresume"
+version = "0.1.0"
+description = "This python package will create an interactive resume template."
+authors = ["Faisal Ahmed <faisalg2006@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.40.2"
+pydantic = "^2.10.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
