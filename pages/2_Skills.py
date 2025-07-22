@@ -9,7 +9,7 @@ import streamlit as st
 from src import UserDefinedString, Icons, ReadJsonFiles
 
 st.set_page_config(
-    page_title=UserDefinedString.page_skills,
+    page_title=f"{UserDefinedString.user_name} | {UserDefinedString.page_skills}",
     page_icon=Icons.star,
     layout="wide"
 )

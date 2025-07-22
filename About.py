@@ -12,7 +12,7 @@ from src import UserDefinedString, Icons, ReadJsonFiles, img_to_html
 
 
 st.set_page_config(
-    page_title=UserDefinedString.user_name,
+    page_title=f"{UserDefinedString.user_name} | About",
     page_icon=Icons.open_book,
     layout="wide"
 )
@@ -30,6 +30,8 @@ introduction_data = read_json_file.get_introduction_data()
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allow_html=True)
 
 st.title(UserDefinedString.user_name)
+
+
 
 logo_image_path = assets / "faisalAhmed.png"
 linkedin_logo_path = assets / "LinkedIn.png"
@@ -61,7 +63,9 @@ for skills in introduction_data.key_skills.keys():
 
 st.subheader("Professional Experience:")
 
-for experience in read_json_file.get_professional_experience():
+experience_data = read_json_file.get_professional_experience()
+
+for experience in experience_data:
 
     st.markdown(f'''
     **{experience.company}, {experience.location} -- ({experience.from_date} - {experience.end_date})**
@@ -70,6 +74,7 @@ for experience in read_json_file.get_professional_experience():
         st.write(f'''
         - {role.role_name}
 ''')
+
 
 st.subheader("Education:")
 
