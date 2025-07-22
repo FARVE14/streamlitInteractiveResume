@@ -39,11 +39,13 @@ add_logo(logo_image_path.__str__(), height=275)
 
 st.sidebar.subheader("Contact")
 
+st.sidebar.markdown(f"""
+<a href="{introduction_data.gmail}">{img_to_html(img_path=gmail_logo_path.__str__())}
+""", unsafe_allow_html=True)
 
-st.sidebar.html(f"""
-<a href={introduction_data.gmail}>{img_to_html(img_path=gmail_logo_path.__str__())}
-<a href={introduction_data.linkedin}>{img_to_html(img_path=linkedin_logo_path.__str__())}
-""")
+st.sidebar.markdown(f"""
+<a href="{introduction_data.linkedin}">{img_to_html(img_path=linkedin_logo_path.__str__())}
+""", unsafe_allow_html=True)
 
 
 st.subheader("Professional Summary")
