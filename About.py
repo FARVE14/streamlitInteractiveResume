@@ -5,10 +5,11 @@ Created On: 1-12-2024
 
 __author__ = "Faisal Ahmed"
 
+from pathlib import Path
 import streamlit as st
 from streamlit_extras.app_logo import add_logo
 from src import UserDefinedString, Icons, ReadJsonFiles, img_to_html
-from pathlib import Path
+
 
 st.set_page_config(
     page_title=UserDefinedString.user_name,
@@ -24,7 +25,6 @@ st.session_state["json_data"] = read_json_file
 introduction_data = read_json_file.get_introduction_data()
 
 
-
 # Adding padding to the HTML page
 
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allow_html=True)
@@ -37,16 +37,13 @@ gmail_logo_path = assets / "gmail.png"
 
 add_logo(logo_image_path.__str__(), height=275)
 
-st.sidebar.subheader("Contact Info")
-
-st.sidebar.markdown(f"""
-<a href={introduction_data.linkedin}> {img_to_html(img_path=linkedin_logo_path.__str__())}
-""", unsafe_allow_html=True)
+st.sidebar.subheader("Contact")
 
 
-st.sidebar.markdown(f"""
+st.sidebar.html(f"""
 <a href={introduction_data.gmail}>{img_to_html(img_path=gmail_logo_path.__str__())}
-""", unsafe_allow_html=True)
+<a href={introduction_data.linkedin}>{img_to_html(img_path=linkedin_logo_path.__str__())}
+""")
 
 
 st.subheader("Professional Summary")

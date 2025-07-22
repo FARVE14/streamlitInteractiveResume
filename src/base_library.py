@@ -10,7 +10,7 @@ def img_to_bytes(img_path: str):
     return base64.b64encode(img_bytes).decode()
 
 
-def img_to_html(img_path: str, style='width:10%; height:10%') -> str:
+def img_to_html(img_path: str, style='width:20%; height:20%') -> str:
     """
 
     """
