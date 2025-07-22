@@ -31,14 +31,14 @@ Welcome to my interactive resume, built using **Python** and the **Streamlit** f
 │ ├── 1_Experience.py
 │ ├── 2_Skills.py
 │ └── 3_Education.py
-├── About.py
+├── Home.py
 ├── requirements.txt
 └── README.md
 ```
 
 - `data/`: Contains all structured resume data in JSON format
 - `pages/`: Individual Streamlit pages (Experience, Skills, Dashboard)
-- `About.py`: Main landing page / app controller
+- `Home.py`: Main landing page / app controller
 - `requirements.txt`: Python dependencies
 
 ---
@@ -56,7 +56,7 @@ cd FaisalAhmedResume
 pip install -r requirements.txt
 
 # Run the Streamlit app
-streamlit run About.py
+streamlit run Home.py
 ```
 --- 
 
