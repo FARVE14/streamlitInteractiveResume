@@ -12,7 +12,7 @@ from src import UserDefinedString, Icons, ReadJsonFiles, img_to_html
 
 
 st.set_page_config(
-    page_title=f"{UserDefinedString.user_name} | About",
+    page_title=f"{UserDefinedString.user_name} | Resume",
     page_icon=Icons.open_book,
     layout="wide"
 )
