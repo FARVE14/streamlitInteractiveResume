@@ -23,6 +23,8 @@ st.session_state["json_data"] = read_json_file
 
 introduction_data = read_json_file.get_introduction_data()
 
+
+
 # Adding padding to the HTML page
 
 st.markdown("<style>div.block-container{padding-top:1rem;}</style>", unsafe_allow_html=True)
@@ -35,15 +37,17 @@ gmail_logo_path = assets / "gmail.png"
 
 add_logo(logo_image_path.__str__(), height=275)
 
-st.sidebar.subheader("Contact")
+st.sidebar.subheader("Contact Info")
 
 st.sidebar.markdown(f"""
-<a href={introduction_data.linkedin}>{img_to_html(img_path=linkedin_logo_path.__str__())}
+<a href={introduction_data.linkedin}> {img_to_html(img_path=linkedin_logo_path.__str__())}
 """, unsafe_allow_html=True)
+
 
 st.sidebar.markdown(f"""
 <a href={introduction_data.gmail}>{img_to_html(img_path=gmail_logo_path.__str__())}
 """, unsafe_allow_html=True)
+
 
 st.subheader("Professional Summary")
 
