@@ -4,3 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 [1.0]
 - Released first version of the document. 
+
+[2.0]
+- Updated the template for the resume

@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "",
+    "summary": "",
+    "experience": null,
+    "title": null,
+    "contact": {
+      "gmail": "",
+      "linkedIn": ""
+    },
+    "key_skills": [
+      {
+        "Skill Category 1 (Narrative)": "A detailed, descriptive summary of your core expertise in this area."
+      }
+      // Add more narrative skill categories as needed
+    ],
+    "achievements": [
+      "Key professional achievement point 1"
+      // Add more achievement points as needed
+    ]
+  },
+  "organization": [
+    {
+      "name": "",
+      "from_date": "",
+      "end_date": "",
+      "location": "",
+      "role": [
+        {
+          "title": "",
+          "from_date": "",
+          "end_date": "",
+          "responsibilities": [
+            "Responsibility 1: Detailed action taken and result achieved."
+          ]
+        }
+        // Add more roles if you held multiple titles at this company
+      ],
+      "projects": [
+        {
+          "title": "",
+          "description": "",
+          "details": null,
+          "skills_used": []
+        }
+        // Add more organization-specific projects as needed
+      ]
+    }
+    // Add more organization blocks for previous jobs
+  ],
+  "personalProjects": {
+    "name": "Independent Projects",
+    "projects": [
+      {
+        "title": "",
+        "description": "",
+        "details": null,
+        "skills_used": []
+      }
+      // Add more independent projects as needed
+    ]
+  },
+  "skills": [
+    {
+      "category": "Skill Category",
+      "technologies": ["Technology 1", "Technology 2"]
+    }
+    // Add more categorized technical skill dictionaries as needed
+  ],
+  "education": [
+    {
+      "institute_name": "",
+      "degree_name": "",
+      "course_name": "",
+      "from_date": "",
+      "end_date": "",
+      "overview": null
+    }
+    // Add more education entries as needed
+  ],
+  "certificates": [
+    // Certificates is an empty list as defined by the data class
+  ],
+  "references": [
+    {
+      "name": "",
+      "organization": null,
+      "contact": null
+    }
+    // Add more reference entries as needed
+  ]
+}

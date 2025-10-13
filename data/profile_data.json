@@ -1,0 +1,303 @@
+{
+  "profile": {
+    "name": "Faisal Ahmed",
+    "summary": "Experienced Data Engineer and Software Validation Lead with 13+ years of expertise in designing and optimizing scalable data pipelines and ensuring data accuracy and governance across automotive, e-commerce, and IoT domains. Proficient in Python, SQL, Snowflake and hands-on experience with AWS and Kafka, with strong skills in data modeling, real-time streaming, and automation. Adept at delivering interactive dashboards and actionable insights, driving operational efficiency and reducing manual validation efforts.",
+    "experience": 13,
+    "title": "Software Validation Technical Lead, Data Collection & Distribution",
+    "contact": {
+      "gmail": "faisalg2006@gmail.com",
+      "linkedIn": "https://www.linkedin.com/in/faisalahmed92/"
+    },
+    "key_skills": [
+      {
+        "Data Validation, Pipelines & Governance": "Led end-to-end data collection, validation, and distribution for telematics and e-commerce data using **Snowflake, Kafka, and Python**. Designed automated validation frameworks and dashboards (**Streamlit, Grafana**) to ensure data accuracy, quality, and governance, driving operational efficiency."
+      },
+      {
+        "Python Automation & Framework Design": "Architected and deployed multiple scalable **Python** automation frameworks and tools for QA and testing. Expertise includes developing keyword-based systems, HMI automation (PyQT), and using libraries like Pandas for data manipulation."
+      },
+      {
+        "Embedded Systems & Automotive Validation": "13+ years of experience in system testing and HIL/ECU validation for automotive active safety (ABS, TCS) and HVAC systems. Proficient with **CAN, J1939 protocols**, and tools like **CANoe, CANalyzer, and LabCar**."
+      },
+      {
+        "Technical Leadership & Process": "Strong understanding of **SDLC, STLC, and Agile** methodologies. Experienced in leading software test teams, defining DVP&R and test plans, and providing technical consultation on Python application architecture."
+      }
+    ],
+    "achievements": [
+      "Led end-to-end data collection, validation, and distribution pipelines for telematics data.",
+      "Architected and deployed multiple scalable Python automation frameworks and tools"
+    ]
+  },
+  "organization": [
+    {
+      "name": "DAF Trucks (Via Tech Mahindra)",
+      "from_date": "Nov 2023",
+      "end_date": "Present",
+      "location": "Eindhoven, Netherlands",
+      "role": [
+        {
+          "title": "Software Validation Technical Lead, Telematics Data",
+          "from_date": "Nov 2023",
+          "end_date": "Present",
+          "responsibilities": [
+            "Led end-to-end data collection, validation, and distribution pipelines for telematics data generated from truck systems, ensuring data quality and reliability for downstream consumers.",
+            "Built automated validation frameworks in Python, integrating with Snowflake and visualization tools (Streamlit) to streamline real-time data monitoring and improve stakeholder insights.",
+            "Developed interactive dashboards using Streamlit to empower business teams with actionable data, improving operational efficiency.",
+            "Introduced data governance practices to ensure compliance with data type and range standards for the Connected Vehicle Platform.",
+            "Collaborated closely with distribution, analytics, and backend teams to deliver scalable data solutions aligned with business needs.",
+            "Responsible for generating mock data to validate the correct recording and transmission of data from real trucks."
+          ],
+          "skills": "Data Validation, Mock Data Generation, Data Cleaning, Data Wrangling, Data Analysis, Streamlit, Python, Pandas, Git/Github, AzureDevOps, Snowflake, SQL, Telematics Systems, CAN, J1939, ALM, Postman"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Interactive Data Dashboard for Measurement Data",
+          "description": "Designed and implemented an interactive dashboard using Streamlit and Python for real-time visualization of telematics data collected from trucks, enabling data-driven decisions.",
+          "details": "",
+          "skills_used": ["Streamlit", "Python", "Snowflake", "Pandas", "plotly"]
+        },
+        {
+          "title": "Data Governance for Connected Vehicle Platform",
+          "description": "Led governance efforts to validate output data integrity, ensuring correct ranges and data types. Developed automated Python scripts to enhance reliability and reduce manual effort.",
+          "details": "",
+          "skills_used": ["Python", "AWS S3", "Kafka", "Pandas", "pytest"]
+        },
+        {
+          "title": "Framework to Validate the Data Generation & Collection",
+          "description": "Generated mock data to test the collection of data by telematics devices on test benches and analyzed & validated the data collected by the device on the real truck. Led governance efforts to validate output data integrity, ensuring correct ranges and data types.",
+          "details": "",
+          "skills_used": ["Python", "AWS S3", "Kafka", "Pandas", "pytest"]
+        }
+      ]
+    },
+    {
+      "name": "eBay",
+      "from_date": "Nov 2022",
+      "end_date": "Oct 2023",
+      "location": "Amsterdam, Netherlands",
+      "role": [
+        {
+          "title": "Senior Software Engineer",
+          "from_date": "Nov 2022",
+          "end_date": "Oct 2023",
+          "responsibilities": [
+            "Data validation and analysis for Promoted Listings and Promoted Display in the Ads group.",
+            "Generated mock data to simulate business scenarios and validate end-to-end data pipelines.",
+            "Validated API responses for accuracy and compliance with business logic.",
+            "Analyzed and ensured seamless data flow between multiple components using Kafka for real-time streaming.",
+            "Improved pipeline reliability, enabling faster and more accurate decision-making for advertisement delivery.",
+            "Automated tests using Python and created CI/CD pipelines in Jenkins.",
+            "Performed data analysis using Grafana to monitor and alert on key metrics."
+          ],
+          "skills": "Algorithm Validation, Data Validation, Data Cleaning, Data Processing, Data Analysis with Grafana, Mock Data Generation, Data Monitoring and Alerts, Python, Agile, Git/Github, Jenkins, SQL, CI/CD, Pandas, Jmeter, Postman"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Framework to Validate the Data Collection & Analysis for Promoted Listings and Promoted Display",
+          "description": "Generated mock data, validated API responses, and analyzed data flow between multiple components using Kafka. Enhanced the reliability of real-time advertising data pipelines.",
+          "details": "",
+          "skills_used": ["Python", "pytest", "Kafka", "SQL", "Jenkins", "Elastic APIs"]
+        }
+      ]
+    },
+    {
+      "name": "Trane Technologies (formerly Known as Ingersoll Rand)",
+      "from_date": "Mar 2015",
+      "end_date": "Oct 2022",
+      "location": "Bengaluru, India",
+      "role": [
+        {
+          "title": "Senior Systems Engineer, System Engineering",
+          "from_date": "May 2022",
+          "end_date": "Oct 2022",
+          "responsibilities": [
+            "Responsible for requirement elicitation, analysis, and finalization for one of the HVAC products of Thermoking, North America.",
+            "Led software development planning and monitoring activities.",
+            "Coordinated with various teams including business, modeling, software development, and electrical component teams to ensure seamless integration.",
+            "Facilitated the development of a highly efficient and reliable HVAC control system by aligning cross-functional teams and translating business requirements into actionable plans."
+          ],
+          "skills": "System Requirement Elicitation, Requirement Analysis, HVAC, Cross-functional Team Coordination, Systems Engineering, Business Requirements Management, Modeling Team Collaboration, System Integration"
+        },
+        {
+          "title": "Technical Lead, Software Engineering",
+          "from_date": "July 2019",
+          "end_date": "April 2022",
+          "responsibilities": [
+            "Led the software test team for NPD projects, overseeing the design of test methodologies, test plans, and related test artifacts.",
+            "Reviewed test documents, tracked test activities, and collaborated with internal customers to plan and execute testing.",
+            "Led the team that develops automation frameworks and tools, including design, development, and deployment of automation frameworks and applications.",
+            "Designed and implemented software simulators using IoT and data acquisition systems.",
+            "Provided technical consultation to different business units in the organization on architecting Python applications.",
+            "Data analysis and visualization of data collected by controller and telematic devices.",
+            "Participated in quality assurance activities and change control board meetings."
+          ],
+          "skills": "Tableau, Software Requirement Elicitation, Agile, Scrum, JIRA, Test Automation, SQL, IoT, Data Acquisition, Test Management, System Testing, HVAC, Python, PyQT, FMEA, DVPnR, Root Cause Analysis, CANalyzer, CANoe, CAPL, CAN, J1939, Pandas"
+        },
+        {
+          "title": "Senior Software Engineer, Software Engineering",
+          "from_date": "July 2016",
+          "end_date": "June 2019",
+          "responsibilities": [
+            "Led the test automation and tools development team while managing manual testing activities.",
+            "Designed and developed architecture for test tools.",
+            "Defined and implemented strategies for automated testing and manual test plans.",
+            "Independently developed multiple scalable automation frameworks for the team that significantly increased the QA team's productivity."
+          ],
+          "skills": "Tableau, Software Requirement Elicitation, Agile, Scrum, JIRA, Test Automation, IoT, Data Acquisition, Test Management, System Testing, HVAC, PyQT, FMEA, CANalyzer, CANoe, CAPL, CAN, J1939"
+        },
+        {
+          "title": "Software Test Engineer, Software Engineering",
+          "from_date": "April 2015",
+          "end_date": "June 2016",
+          "responsibilities": [
+            "Validated control algorithms for HVAC systems in trucks and trailers.",
+            "Tested and validated data collected by telematics devices connected to HVAC systems.",
+            "Developed a Python-based tool to automate manual test cases, improving efficiency and reducing testing time.",
+            "Validated embedded controllers of Thermoking Truck/Trailer units and Telematics devices."
+          ],
+          "skills": "Python, RS232, HVAC, CAN, Peak-CAN, Doors, ALM, SDLC, STLC, Defect Management"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Framework to Validate & Analyze Data From Telematics Devices",
+          "description": "Validated data consistency between two independent recording processes in telematics devices. Conducted data analysis to generate user profiles and trip summaries. Implemented automated Python scripts to streamline validation and reporting, reducing manual verification efforts.",
+          "details": "",
+          "skills_used": ["Python", "SQL", "BDD", "PYQT", "Tableau"]
+        },
+        {
+          "title": "HMI Automation Application",
+          "description": "Developed a Python and PyQt based tool for automated HMI testing with a responsive client-server design.",
+          "details": "",
+          "skills_used": ["Python", "PyQT"]
+        },
+        {
+          "title": "CAN DBC File Generator",
+          "description": "Built an application to auto-generate CAN dbc file from a database for automotive embedded applications. The tool was configurable to support multiple platforms and databases. The generated dbc file was used to test CAN protocol of Thermoking controllers.",
+          "details": "",
+          "skills_used": ["Python", "PyQT", "SQLite", "MCC DAQ"]
+        },
+        {
+          "title": "Data Acquisition Sensor Simulator Framework Using MCC DAQ",
+          "description": "Designed and developed a data acquisition sensor simulator to simulate the Analog/Digital IOs of the Thermoking controller. Created a Python library to interface with multiple data acquisition devices for sensor simulation.",
+          "details": "",
+          "skills_used": ["Python", "PyQT", "SQLite", "MCC DAQ"]
+        },
+        {
+          "title": "Themoking Controller Flashload Utilities Using Python-CAN",
+          "description": "Developed Python tools for flashing firmware on embedded controllers using J1939 protocol.",
+          "details": "",
+          "skills_used": ["Python", "python-can", "J1939"]
+        },
+        {
+          "title": "CAN Test Tool Framework",
+          "description": "Created a keyword based test framework to test CAN & J1939 protocols for Thermoking controllers.",
+          "details": "",
+          "skills_used": ["Python", "python-can", "J1939"]
+        },
+        {
+          "title": "Keyword Based Test Automation Framework for Thermoking Controllers",
+          "description": "Designed and developed keyword based test automation framework to simulate the input scenarios & to validate the algorithms of the Thermoking controllers. Keywords were provided to the user to create the input stimuli. Tool was configured to support different Thermoking controllers.",
+          "details": "",
+          "skills_used": ["Python", "PyQT", "DAQ"]
+        }
+      ]
+    },
+    {
+      "name": "Robert Bosch Engineering Services",
+      "from_date": "Jul 2012",
+      "end_date": "Mar 2015",
+      "location": "Bengaluru, India",
+      "role": [
+        {
+          "title": "Software Test Engineer",
+          "from_date": "Jul 2012",
+          "end_date": "Mar 2015",
+          "responsibilities": [
+            "Performed smoke, validation, and regression testing of active safety systems (ABS, TCS) for 2-wheelers and 4-wheelers for JOEM.",
+            "Created and configured test setups using ETAS LabCar.",
+            "Executed test cases, analyzed results, and documented defects.",
+            "Conducted requirement-based system-level testing and validated corrective actions.",
+            "Automated test cases and validated defects, ensuring compliance with safety standards."
+          ],
+          "skills": "V-Model, System Testing, Active Safety System, CAN, OBD, CANalyzer, CANoe, Labcar, SDLC, STLC, Defect Management, CAPL, Doors"
+        }
+      ],
+      "projects": []
+    }
+  ],
+  "personalProjects": {
+    "name": "Independent Projects",
+    "projects": [
+      {
+        "title": "Standalone Autonomous Data Logger Using RPI",
+        "description": "Built a BeagleBone-based IoT solution for autonomous data logging, integrated with Django via REST APIS.",
+        "details": "",
+        "skills_used": ["IoT", "Django", "REST API"]
+      }
+    ]
+  },
+  "skills": [
+    {
+      "category": "Data Engineering & Validation",
+      "technologies": ["Snowflake", "SQL", "Kafka", "AWS S3", "Pandas", "Streamlit", "Grafana", "Data Wrangling", "Data Analysis", "Data Cleaning", "Data Governance"]
+    },
+    {
+      "category": "Automation & Software Development",
+      "technologies": ["Python", "PyQT", "pytest", "Jmeter", "CI/CD (Jenkins/AzureDevOps)", "BDD", "Test Automation Frameworks"]
+    },
+    {
+      "category": "Embedded Systems & Automotive",
+      "technologies": ["CAN", "J1939", "LIN", "Ethernet", "Modbus", "HIL", "ECU Testing", "CAPL", "CANalyzer", "CANoe", "LabCar", "Active Safety System (ABS/TCS)", "HVAC"]
+    },
+    {
+      "category": "Testing & Quality Assurance",
+      "technologies": ["V-Model", "SDLC", "STLC", "Agile/Scrum", "JIRA", "FMEA", "DVP&R", "Test Planning", "System Testing", "Defect Management"]
+    },
+    {
+      "category": "IoT & Data Acquisition",
+      "technologies": ["IoT", "Data Acquisition Systems (MCC DAQ)", "Raspberry Pi", "Arduino", "BeagleBone"]
+    },
+    {
+      "category": "Tools & Platforms",
+      "technologies": ["Git/GitHub", "Postman", "Tableau", "AzureDevOps", "Elastic APIs", "Doors", "ALM", "RS232"]
+    }
+  ],
+  "education": [
+    {
+      "institute_name": "RPTU Kaiserslautern-Landau, Germany",
+      "degree_name": "Master of Science in Software Engineering for Embedded Systems",
+      "course_name": "Software Engineering for Embedded Systems",
+      "from_date": "2017",
+      "end_date": "2020",
+      "overview": "Organized in collaboration with the Fraunhofer Institute for Experimental Software Engineering (IESE). Professional Master's program focused on software engineering for embedded systems, covering project management, software quality assurance, software product line engineering, real-time systems, and dependability engineering."
+    },
+    {
+      "institute_name": "Integral University, Lucknow, India",
+      "degree_name": "Bachelor of Technology (BTech)",
+      "course_name": "Electronics & Communications Engineering",
+      "from_date": "2008",
+      "end_date": "2012",
+      "overview": ""
+    }
+  ],
+  "certificates": [],
+  "references": [
+    {
+      "name": "Glen Allen Lobo",
+      "organization": "TRANE TECHNOLOGIES",
+      "contact": "glen.lobo@gmail.com"
+    },
+    {
+      "name": "Suparna S Nair",
+      "organization": "QUALCOMM AI RESEARCH",
+      "contact": "suparnasnair@gmail.com"
+    },
+    {
+      "name": "Rahim Allana",
+      "organization": "THERMOKING",
+      "contact": "rahim_allana@tranetechnologies.com"
+    }
+  ]
+}

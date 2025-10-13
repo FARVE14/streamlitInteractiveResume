@@ -1,0 +1,13 @@
+/* Soften the main input area border and background */
+    div[data-baseweb="select"] > div:first-child {
+        border-color: #E6E6E6 !important;
+        box-shadow: none !important;
+        background-color: #F8F8F8 !important;
+    }
+
+    /* Style the individual selected tags inside the multiselect input */
+    .stMultiSelect div[role="list"] span {
+        background-color: #F0F0F0 !important; /* Soft background for tags */
+        border-radius: 4px !important;
+        color: #36454F !important; /* Use your TEXT_COLOR for consistency */
+        font-weight: 500;
