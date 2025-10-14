@@ -284,7 +284,7 @@
   "education": [
     {
       "institute_name": "RPTU Kaiserslautern-Landau, Germany",
-      "degree_name": "Master of Science in Software Engineering for Embedded Systems",
+      "degree_name": "Master of Science",
       "course_name": "Software Engineering for Embedded Systems",
       "from_date": "2017",
       "end_date": "2020",
@@ -292,11 +292,11 @@
     },
     {
       "institute_name": "Integral University, Lucknow, India",
-      "degree_name": "Bachelor of Technology (BTech)",
+      "degree_name": "Bachelor of Technology (B. Tech.)",
       "course_name": "Electronics & Communications Engineering",
       "from_date": "2008",
       "end_date": "2012",
-      "overview": ""
+      "overview": "Completed Bachelor of Technology (B. Tech.) in Electronics & Communications Engineering, gaining a strong foundation in electronic systems, controls systems, communication technologies, and signal processing."
     }
   ],
   "certificates": [],
