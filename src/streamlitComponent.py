@@ -275,18 +275,24 @@ def publish_references(user_data: UserProfileDataModel):
     Publish references showcase
     """
     st.header("References")
-    for ref in user_data.references:
-        # Use a container for a clean, professional box around each reference entry
-        with st.container(border=True):
+    no_references_in_col = 5
+    for index in range(0, len(user_data.references), no_references_in_col):
+        list_col_obj = st.columns(no_references_in_col)
+        for i, col_obj in enumerate(list_col_obj):
+            value = index + i
+            if value >= len(user_data.references):
+                continue
+            with list_col_obj[i]:
+                with st.container(border=True):
+                    ref = user_data.references[value]
+                    st.subheader(f"👤 {ref.name}")
 
-            st.subheader(f"👤 {ref.name}")
+                    # 2. Organization (Secondary text)
+                    if ref.organization:
+                        st.markdown(f"*{ref.organization}*", unsafe_allow_html=True)
 
-            # 2. Organization (Secondary text)
-            if ref.organization:
-                st.markdown(f"*{ref.organization}*", unsafe_allow_html=True)
-
-            # 3. Contact (Tertiary text, often linked for quick access)
-            if ref.contact:
-                # Create a mailto link for easy emailing
-                contact_link = f"mailto:{ref.contact}"
-                st.caption(f"Contact: [{ref.contact}]({contact_link})")
+                    # 3. Contact (Tertiary text, often linked for quick access)
+                    if ref.contact:
+                        # Create a mailto link for easy emailing
+                        contact_link = f"mailto:{ref.contact}"
+                        st.caption(f"Contact: [{ref.contact}]({contact_link})")
