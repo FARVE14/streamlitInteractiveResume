@@ -111,7 +111,7 @@ def publish_dashboard_details(
         container = st.container(border=True)
         for data in user_data.profile.key_skills:
             for skill, description in data.items():
-                container.markdown(f"<h5>🚀 {skill}</h5>", unsafe_allow_html=True)
+                container.markdown(f"<h5>✨ {skill}</h5>", unsafe_allow_html=True)
                 container.write(description)
     with list_col_objs[1]:
         container = st.container(border=True)
@@ -121,16 +121,15 @@ def publish_dashboard_details(
 
     st.subheader("🏢 Company Overview")
     container = st.container(border=True)
-    with container:
-        list_col_objs = st.columns(6)
-        with list_col_objs[0]:
-            [st.write(f"👥 {company.name}", unsafe_allow_html=True) for company in user_data.organization]
-        with list_col_objs[4]:
-            [st.write(f"{company.from_date} - {company.end_date}", unsafe_allow_html=True)
-             for company in user_data.organization]
-        with list_col_objs[5]:
-            [st.write(f"{company.location}", unsafe_allow_html=True)
-             for company in user_data.organization]
+    for company in user_data.organization:
+        with container:
+            list_col_objs = st.columns(4)
+            with list_col_objs[0]:
+                st.write(f"👥 {company.name}")
+            with list_col_objs[len(list_col_objs) - 2]:
+                st.write(f"{company.from_date} - {company.end_date}")
+            with list_col_objs[len(list_col_objs) - 1]:
+                st.write(f"{company.location}")
 
 
 def publish_career_timeline(user_data: UserProfileDataModel) -> None:

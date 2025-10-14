@@ -29,8 +29,8 @@
 /* --- Card Styles (UPDATED DIMENSIONS) --- */
 .card {
     flex-shrink: 0;
-    width: 450px; /* NEW WIDER WIDTH */
-    height: 350px; /* Kept from previous step */
+    width: 350px; /* NEW WIDER WIDTH */
+    height: 475px; /* Kept from previous step */
     margin-right: 15px;
 
     border-radius: 12px;
@@ -53,7 +53,7 @@
     height: 70px;
     color: white;
     padding: 20px 15px 0 15px;
-    font-size: 1.2em;
+    font-size: 1.0em;
     font-weight: 600;
 }
 .card-content {

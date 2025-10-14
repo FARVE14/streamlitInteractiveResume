@@ -1,9 +1,9 @@
 {
   "profile": {
     "name": "Faisal Ahmed",
-    "summary": "Experienced Data Engineer and Software Validation Lead with 13+ years of expertise in designing and optimizing scalable data pipelines and ensuring data accuracy and governance across automotive, e-commerce, and IoT domains. Proficient in Python, SQL, Snowflake and hands-on experience with AWS and Kafka, with strong skills in data modeling, real-time streaming, and automation. Adept at delivering interactive dashboards and actionable insights, driving operational efficiency and reducing manual validation efforts.",
+    "summary": "Experienced Data Engineer and Software Validation Lead with 13+ years of expertise in designing and optimizing scalable data pipelines and ensuring data accuracy and governance across automotive, e-commerce, and IoT domains. Proficient in Python, SQL, Snowflake and hands-on experience with AWS and Kafka, with strong skills in data modeling, real-time streaming, and automation. Adept at delivering interactive dashboards and actionable insights, driving operational efficiency and reducing manual validation efforts. My career includes a strong foundation in embedded systems, where I have designed and led test automation frameworks and validated complex algorithms.",
     "experience": 13,
-    "title": "Software Validation Technical Lead, Data Collection & Distribution",
+    "title": "Data Collection & Distribution Validation lead",
     "contact": {
       "gmail": "faisalg2006@gmail.com",
       "linkedIn": "https://www.linkedin.com/in/faisalahmed92/"
@@ -23,8 +23,10 @@
       }
     ],
     "achievements": [
-      "Led end-to-end data collection, validation, and distribution pipelines for telematics data.",
-      "Architected and deployed multiple scalable Python automation frameworks and tools"
+      "Led end-to-end data collection, validation, and distribution pipelines for telematics data generated from truck systems.",
+      "Built automation frameworks in Python, integrating with Snowflake and visualization tools to streamline real-time data monitoring.",
+      "Optimized the regression test cycle at eBay, significantly reducing regression time.",
+      "Independently developed multiple scalable automation frameworks that significantly increased the QA team's productivity at Trane Technologies."
     ]
   },
   "organization": [
@@ -45,28 +47,27 @@
             "Introduced data governance practices to ensure compliance with data type and range standards for the Connected Vehicle Platform.",
             "Collaborated closely with distribution, analytics, and backend teams to deliver scalable data solutions aligned with business needs.",
             "Responsible for generating mock data to validate the correct recording and transmission of data from real trucks."
-          ],
-          "skills": "Data Validation, Mock Data Generation, Data Cleaning, Data Wrangling, Data Analysis, Streamlit, Python, Pandas, Git/Github, AzureDevOps, Snowflake, SQL, Telematics Systems, CAN, J1939, ALM, Postman"
+          ]
         }
       ],
       "projects": [
         {
-          "title": "Interactive Data Dashboard for Measurement Data",
-          "description": "Designed and implemented an interactive dashboard using Streamlit and Python for real-time visualization of telematics data collected from trucks, enabling data-driven decisions.",
-          "details": "",
-          "skills_used": ["Streamlit", "Python", "Snowflake", "Pandas", "plotly"]
+          "title": "Interactive Data Dashboard with Streamlit",
+          "description": "Developed an interactive data dashboard using Python and Streamlit to visualize and analyze data in real time.",
+          "details": "Designed and implemented a user-friendly dashboard that integrates multiple data sources, allowing users to filter, explore, and interpret data dynamically. Enhanced performance through optimized data handling and visualization techniques, improving decision-making efficiency.",
+          "skills_used": ["Streamlit", "Python", "Snowflake", "Pandas", "plotly", "SQL", "Data Visualization"]
         },
         {
-          "title": "Data Governance for Connected Vehicle Platform",
-          "description": "Led governance efforts to validate output data integrity, ensuring correct ranges and data types. Developed automated Python scripts to enhance reliability and reduce manual effort.",
-          "details": "",
-          "skills_used": ["Python", "AWS S3", "Kafka", "Pandas", "pytest"]
+          "title": "Data Integrity Validation and Automation Framework",
+          "description": "Led data governance initiatives to ensure the accuracy and reliability of output data through automated validation processes.",
+          "details": "Implemented governance measures to validate data integrity by verifying value ranges and data types. Developed automated Python scripts to streamline validation workflows, enhance data reliability, and minimize manual intervention. Improved overall data quality and operational efficiency across analytical pipelines.",
+          "skills_used": ["Python", "AWS S3", "Kafka", "Pandas", "pytest", "Snowflake", "SQL", "Data Validation"]
         },
         {
-          "title": "Framework to Validate the Data Generation & Collection",
-          "description": "Generated mock data to test the collection of data by telematics devices on test benches and analyzed & validated the data collected by the device on the real truck. Led governance efforts to validate output data integrity, ensuring correct ranges and data types.",
-          "details": "",
-          "skills_used": ["Python", "AWS S3", "Kafka", "Pandas", "pytest"]
+          "title": "Telematics Data Validation and Governance System",
+          "description": "Developed and validated telematics data pipelines by generating mock data for test benches and verifying real-world data collected from trucks.",
+          "details": "Generated simulated telematics data to test device data collection and transmission accuracy under controlled environments. Analyzed and validated real truck data to ensure consistency and accuracy across systems. Led governance efforts to verify data integrity, enforcing correct ranges, formats, and data types to maintain reliability and quality standards.",
+          "skills_used": ["Python", "AWS S3", "Kafka", "Pandas", "RobotFramework", "Snowflake", "SQL", "Data Validation"]
         }
       ]
     },
@@ -88,15 +89,14 @@
             "Improved pipeline reliability, enabling faster and more accurate decision-making for advertisement delivery.",
             "Automated tests using Python and created CI/CD pipelines in Jenkins.",
             "Performed data analysis using Grafana to monitor and alert on key metrics."
-          ],
-          "skills": "Algorithm Validation, Data Validation, Data Cleaning, Data Processing, Data Analysis with Grafana, Mock Data Generation, Data Monitoring and Alerts, Python, Agile, Git/Github, Jenkins, SQL, CI/CD, Pandas, Jmeter, Postman"
+          ]
         }
       ],
       "projects": [
         {
-          "title": "Framework to Validate the Data Collection & Analysis for Promoted Listings and Promoted Display",
-          "description": "Generated mock data, validated API responses, and analyzed data flow between multiple components using Kafka. Enhanced the reliability of real-time advertising data pipelines.",
-          "details": "",
+          "title": "Data Collection & Analysis for Promoted Listings and Promoted Display",
+          "description": "Enhanced the reliability of real-time advertising data pipelines by validating data flow and ensuring accurate API responses.",
+          "details": "Generated mock data to simulate real-world traffic and tested API responses for correctness. Monitored and analyzed data flow between multiple components using Kafka, identifying and resolving inconsistencies to improve pipeline reliability and performance.",
           "skills_used": ["Python", "pytest", "Kafka", "SQL", "Jenkins", "Elastic APIs"]
         }
       ]
@@ -116,8 +116,8 @@
             "Led software development planning and monitoring activities.",
             "Coordinated with various teams including business, modeling, software development, and electrical component teams to ensure seamless integration.",
             "Facilitated the development of a highly efficient and reliable HVAC control system by aligning cross-functional teams and translating business requirements into actionable plans."
-          ],
-          "skills": "System Requirement Elicitation, Requirement Analysis, HVAC, Cross-functional Team Coordination, Systems Engineering, Business Requirements Management, Modeling Team Collaboration, System Integration"
+          ]
+
         },
         {
           "title": "Technical Lead, Software Engineering",
@@ -131,8 +131,7 @@
             "Provided technical consultation to different business units in the organization on architecting Python applications.",
             "Data analysis and visualization of data collected by controller and telematic devices.",
             "Participated in quality assurance activities and change control board meetings."
-          ],
-          "skills": "Tableau, Software Requirement Elicitation, Agile, Scrum, JIRA, Test Automation, SQL, IoT, Data Acquisition, Test Management, System Testing, HVAC, Python, PyQT, FMEA, DVPnR, Root Cause Analysis, CANalyzer, CANoe, CAPL, CAN, J1939, Pandas"
+          ]
         },
         {
           "title": "Senior Software Engineer, Software Engineering",
@@ -143,8 +142,7 @@
             "Designed and developed architecture for test tools.",
             "Defined and implemented strategies for automated testing and manual test plans.",
             "Independently developed multiple scalable automation frameworks for the team that significantly increased the QA team's productivity."
-          ],
-          "skills": "Tableau, Software Requirement Elicitation, Agile, Scrum, JIRA, Test Automation, IoT, Data Acquisition, Test Management, System Testing, HVAC, PyQT, FMEA, CANalyzer, CANoe, CAPL, CAN, J1939"
+          ]
         },
         {
           "title": "Software Test Engineer, Software Engineering",
@@ -155,52 +153,63 @@
             "Tested and validated data collected by telematics devices connected to HVAC systems.",
             "Developed a Python-based tool to automate manual test cases, improving efficiency and reducing testing time.",
             "Validated embedded controllers of Thermoking Truck/Trailer units and Telematics devices."
-          ],
-          "skills": "Python, RS232, HVAC, CAN, Peak-CAN, Doors, ALM, SDLC, STLC, Defect Management"
+          ]
         }
       ],
       "projects": [
         {
+          "title": "Lead Validation of Thermoking Transport Refrigeration System (EU Market)",
+          "description": "Led testing and validation of Thermoking transport refrigeration systems for single and multiple zones in the EU market as part of a New Product Development (NPD) initiative.",
+          "details": "Directed end-to-end test activities, covering base software to application software, ensuring system performance and compliance with EU market requirements. Managed the software release process, coordinated cross-functional testing efforts, and validated system functionality for both single-zone and multi-zone refrigeration configurations. Ensured high-quality delivery of NPD projects through structured validation and rigorous test management.",
+          "skills_used": ["NPD Project Leadership","Test Management", "Technical Lead", "Validation & Verification", "Embedded Systems", "SDLC", "STLC","Transport Refrigeration Systems", "Algorithm Validation", "Multi-Zone Control", "Test Automation", "Data Validation"]
+        },
+        {
           "title": "Framework to Validate & Analyze Data From Telematics Devices",
-          "description": "Validated data consistency between two independent recording processes in telematics devices. Conducted data analysis to generate user profiles and trip summaries. Implemented automated Python scripts to streamline validation and reporting, reducing manual verification efforts.",
-          "details": "",
-          "skills_used": ["Python", "SQL", "BDD", "PYQT", "Tableau"]
-        },
-        {
-          "title": "HMI Automation Application",
-          "description": "Developed a Python and PyQt based tool for automated HMI testing with a responsive client-server design.",
-          "details": "",
-          "skills_used": ["Python", "PyQT"]
-        },
-        {
-          "title": "CAN DBC File Generator",
-          "description": "Built an application to auto-generate CAN dbc file from a database for automotive embedded applications. The tool was configurable to support multiple platforms and databases. The generated dbc file was used to test CAN protocol of Thermoking controllers.",
-          "details": "",
-          "skills_used": ["Python", "PyQT", "SQLite", "MCC DAQ"]
+          "description": "Validated and analyzed telematics device data to ensure accuracy and consistency, generating actionable insights from user and trip information.",
+          "details": "Designed a validation framework to compare independent recordings from telematics devices and ensure data integrity. Conducted data analysis to produce user profiles and trip summaries. Automated validation and reporting processes using Python, reducing manual effort, improving accuracy, and accelerating insights into device performance and usage patterns.",
+          "skills_used": ["Python", "SQL", "BDD", "PYQT", "Tableau", "Data Validation", "Pandas"]
         },
         {
           "title": "Data Acquisition Sensor Simulator Framework Using MCC DAQ",
-          "description": "Designed and developed a data acquisition sensor simulator to simulate the Analog/Digital IOs of the Thermoking controller. Created a Python library to interface with multiple data acquisition devices for sensor simulation.",
-          "details": "",
-          "skills_used": ["Python", "PyQT", "SQLite", "MCC DAQ"]
+          "description": "Designed and implemented a sensor simulator framework to replicate Analog and Digital I/Os of Thermoking controllers, enabling efficient testing and development.",
+          "details": "Developed a Python-based framework to interface with multiple MCC data acquisition devices for simulating sensor inputs. Created a reusable library to mimic analog and digital signals, allowing testing of controller responses without physical sensors. Streamlined testing workflows, reduced hardware dependency, and improved development efficiency for embedded systems.",
+          "skills_used": ["Python", "PyQT", "SQLite", "MCC DAQ", "Data Acquisition", "Sensor Simulation", "Analog/Digital Signal Processing"]
         },
         {
-          "title": "Themoking Controller Flashload Utilities Using Python-CAN",
-          "description": "Developed Python tools for flashing firmware on embedded controllers using J1939 protocol.",
-          "details": "",
-          "skills_used": ["Python", "python-can", "J1939"]
+          "title": "Standalone Autonomous Data Logger Using Raspberry Pi",
+          "description": "Developed a Raspberry Pi-based IoT solution for autonomous data logging, with backend integration via Django REST APIs.",
+          "details": "Designed and implemented a standalone data logger capable of collecting, storing, and transmitting sensor data autonomously. Integrated the system with a Django backend using REST APIs for real-time data access and management. Built a scalable architecture to support multiple sensor types, enabling efficient data monitoring and analysis without manual intervention.",
+          "skills_used": ["Raspberry Pi", "Python", "Django", "REST APIs", "IoT", "Data Logging", "Sensor Integration"]
+        },
+         {
+          "title": "Thermoking Controller Flashload Utilities Using Python-CAN",
+          "description": "Developed Python-CAN based utilities to manage and automate flashloading processes for Thermoking controllers, ensuring reliable firmware updates.",
+          "details": "Built a suite of Python tools to interface with Thermoking controllers over the CAN bus, enabling automated firmware flashing, verification, and error handling. Streamlined the flashloading process to reduce manual intervention, minimize downtime, and improve firmware update reliability. Implemented logging and reporting features to track update status and diagnose issues efficiently.",
+          "skills_used": ["Python", "python-can", "CAN", "J1939", "Logging & Reporting"]
         },
         {
-          "title": "CAN Test Tool Framework",
-          "description": "Created a keyword based test framework to test CAN & J1939 protocols for Thermoking controllers.",
-          "details": "",
-          "skills_used": ["Python", "python-can", "J1939"]
+          "title": "CAN DBC File Generator",
+          "description": "Developed an application to automatically generate CAN DBC files from databases for automotive embedded applications, supporting multiple platforms.",
+          "details": "Built a configurable tool to extract data from different databases and generate CAN DBC files, enabling standardized testing of CAN protocols. The generated files were used to validate communication and functionality of Thermoking controllers. Streamlined the process to reduce manual effort, improve accuracy, and ensure compatibility across multiple automotive platforms.",
+          "skills_used": ["Python", "PyQT", "SQLite", "CAN", "J1939", "Database Integration"]
         },
         {
-          "title": "Keyword Based Test Automation Framework for Thermoking Controllers",
-          "description": "Designed and developed keyword based test automation framework to simulate the input scenarios & to validate the algorithms of the Thermoking controllers. Keywords were provided to the user to create the input stimuli. Tool was configured to support different Thermoking controllers.",
-          "details": "",
-          "skills_used": ["Python", "PyQT", "DAQ"]
+          "title": "HMI Automation Application",
+          "description": "Developed a Python and PyQt-based application for automated HMI testing.",
+          "details": "Designed and implemented an HMI automation tool that enables automated testing of interface components, reducing manual testing effort. Built a client-server framework to allow seamless communication between test clients and the server, supporting real-time test execution and monitoring. Integrated reporting and logging features to track test results and improve reliability of HMI systems.",
+          "skills_used": ["Python", "PyQT", "Logging", "RS232"]
+        },
+        {
+          "title": "Keyword-Based CAN Test Automation Framework for Thermoking Controllers",
+          "description": "Developed a keyword-driven test automation framework to validate CAN and J1939 protocol communications and simulate input scenarios for Thermoking controllers.",
+          "details": "Designed and implemented a configurable framework that allowed users to provide keywords to generate input stimuli and automate testing of controller algorithms. Integrated support for CAN and J1939 protocols to systematically test communications and detect protocol errors. Configured the framework for multiple Thermoking controller models, reducing manual testing effort, improving validation accuracy, and providing comprehensive logging and reporting of test results.",
+          "skills_used": ["Python", "python-can", "CAN", "J1939", "Keyword-Driven Testing", "Algorithm Validation", "Logging & Reporting"]
+        },
+        {
+          "title": "Algorithm Validation for Thermoking Controllers (EMEA Market)",
+          "description": "Validated the performance and correctness of Thermoking controller algorithms for the EMEA market to ensure accurate and reliable operation.",
+          "details": "Designed and executed test scenarios to evaluate controller algorithms under various operating conditions. Analyzed data outputs to verify compliance with functional requirements and regional standards. Automated parts of the validation process using Python scripts, improving efficiency, reducing manual effort, and ensuring consistent and reliable algorithm performance across controllers.",
+          "skills_used": ["Python", "Algorithm Validation", "Embedded Systems", "Test Automation", "Data Validation", "SDLC", "STLC"]
         }
       ]
     },
@@ -220,50 +229,58 @@
             "Executed test cases, analyzed results, and documented defects.",
             "Conducted requirement-based system-level testing and validated corrective actions.",
             "Automated test cases and validated defects, ensuring compliance with safety standards."
-          ],
-          "skills": "V-Model, System Testing, Active Safety System, CAN, OBD, CANalyzer, CANoe, Labcar, SDLC, STLC, Defect Management, CAPL, Doors"
+          ]
         }
       ],
-      "projects": []
+      "projects": [
+        {
+          "title": "Validation of Active Safety Systems for Japanese OEM :  2 & 4 Wheelers",
+          "description": "Performed manual testing and validation of active safety systems, including ABS, ESP, and TCS, for both 2-wheelers and 4-wheelers for a Japanese OEM, ensuring compliance with common and customer-specific software requirements.",
+          "details": "Executed comprehensive manual test cases to validate software functionality of active safety systems across 2-wheeler and 4-wheeler platforms. Verified adherence to functional specifications, safety standards, and customer-specific requirements. Documented test results, identified issues, and collaborated with development teams to ensure high-quality and reliable software delivery.",
+          "skills_used": ["Manual Testing", "SDLC", "STLC", "V-Model","Active Safety Systems", "Requirement Validation"]
+        }
+      ]
     }
   ],
   "personalProjects": {
     "name": "Independent Projects",
     "projects": [
       {
-        "title": "Standalone Autonomous Data Logger Using RPI",
-        "description": "Built a BeagleBone-based IoT solution for autonomous data logging, integrated with Django via REST APIS.",
-        "details": "",
-        "skills_used": ["IoT", "Django", "REST API"]
+        "title": "Integrative Resume Builder Using Streamlit",
+        "description": "Developed an interactive resume creation tool using Streamlit, integrating user data from JSON files to dynamically generate resumes.",
+        "details": "Built a web-based application where users can input or upload personal and professional information in JSON format. The tool dynamically renders resumes with customizable sections and layouts. Implemented data validation and formatting features to ensure consistency and polished output, allowing users to generate professional resumes efficiently.",
+        "skills_used": ["Python", "Streamlit", "JSON"]
       }
     ]
   },
   "skills": [
-    {
-      "category": "Data Engineering & Validation",
-      "technologies": ["Snowflake", "SQL", "Kafka", "AWS S3", "Pandas", "Streamlit", "Grafana", "Data Wrangling", "Data Analysis", "Data Cleaning", "Data Governance"]
-    },
-    {
-      "category": "Automation & Software Development",
-      "technologies": ["Python", "PyQT", "pytest", "Jmeter", "CI/CD (Jenkins/AzureDevOps)", "BDD", "Test Automation Frameworks"]
-    },
-    {
-      "category": "Embedded Systems & Automotive",
-      "technologies": ["CAN", "J1939", "LIN", "Ethernet", "Modbus", "HIL", "ECU Testing", "CAPL", "CANalyzer", "CANoe", "LabCar", "Active Safety System (ABS/TCS)", "HVAC"]
-    },
-    {
-      "category": "Testing & Quality Assurance",
-      "technologies": ["V-Model", "SDLC", "STLC", "Agile/Scrum", "JIRA", "FMEA", "DVP&R", "Test Planning", "System Testing", "Defect Management"]
-    },
-    {
-      "category": "IoT & Data Acquisition",
-      "technologies": ["IoT", "Data Acquisition Systems (MCC DAQ)", "Raspberry Pi", "Arduino", "BeagleBone"]
-    },
-    {
-      "category": "Tools & Platforms",
-      "technologies": ["Git/GitHub", "Postman", "Tableau", "AzureDevOps", "Elastic APIs", "Doors", "ALM", "RS232"]
-    }
-  ],
+  {
+    "category": "Data Engineering & Validation",
+    "technologies": ["Python", "SQL", "Snowflake", "Kafka", "AWS S3", "Pandas", "Streamlit", "Grafana", "Data Wrangling", "Data Analysis", "Data Cleaning", "Data Governance", "REST APIs", "Plotly/Matplotlib"]
+  },
+  {
+    "category": "Automation & Software Development",
+    "technologies": ["Python", "PyQt", "pytest", "JMeter", "CI/CD (Jenkins/Azure DevOps)", "BDD", "Test Automation Frameworks", "Keyword-Driven Testing", "Firmware/ECU Automation"]
+  },
+  {
+    "category": "Embedded Systems & Automotive",
+    "technologies": ["CAN", "J1939", "RS232","LIN", "Ethernet", "Modbus", "HIL", "ECU Testing", "CAPL", "CANalyzer", "CANoe", "LabCar", "Active Safety Systems (ABS/TCS)", "HVAC", "Thermoking Controllers", "Algorithm Validation", "Firmware Flash Utilities"]
+  },
+  {
+    "category": "Testing & Quality Assurance",
+    "technologies": ["V-Model", "SDLC", "STLC", "Agile/Scrum", "JIRA", "FMEA", "DVP&R", "Test Planning", "System Testing", "Defect Management", "Manual + Automation Integration", "Logging & Reporting"]
+  },
+  {
+    "category": "IoT & Data Acquisition",
+    "technologies": ["IoT", "MCC DAQ", "Raspberry Pi", "Arduino", "BeagleBone", "Sensor Simulation", "Analog/Digital Signal Processing"]
+  },
+  {
+    "category": "Tools & Platforms",
+    "technologies": ["Git/GitHub", "Postman", "Tableau", "AzureDevOps", "Elastic APIs", "Doors", "ALM", "JIRA"]
+  }
+]
+
+,
   "education": [
     {
       "institute_name": "RPTU Kaiserslautern-Landau, Germany",

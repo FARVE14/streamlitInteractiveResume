@@ -9,7 +9,7 @@ from src.utilities import img_to_bytes
 
 
 def build_themed_image_link(ref_link: str, image_path: str, alt_text: str = "",
-                            style: str ='width:30%; height:30%') -> str:
+                            style: str ='width:20%; height:20%') -> str:
     """
     Returns HTML for a theme-aware linked image that adapts to Streamlit's dark/light theme.
     """
@@ -24,7 +24,7 @@ def build_themed_image_link(ref_link: str, image_path: str, alt_text: str = "",
         ">
             <a href="{ref_link}" target="_blank" style="text-decoration:none; display:block;">
                 <img src="data:image/png;base64,{img_to_bytes(image_path)}"
-                     alt="{alt_text}" style="{style}" class="img-fluid">
+                     alt="{alt_text}" style="{style}">
             </a>
         </div>
         """
@@ -54,6 +54,8 @@ def html_card_template(title: str, color: str, content: str, details_html:str, t
 
 # Helper function to convert newlines to <br> for HTML display
 def format_for_html(text):
+    if text is None:
+        return text
     return text.replace("\n", "<br>")
 
 

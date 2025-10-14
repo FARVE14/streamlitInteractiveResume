@@ -80,5 +80,5 @@ with skills:
 with education:
     publish_education(user_data=user_data)
 
-# with references:
-#     publish_references(user_data=user_data)
+with references:
+    publish_references(user_data=user_data)
