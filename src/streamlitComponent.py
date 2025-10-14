@@ -275,7 +275,7 @@ def publish_references(user_data: UserProfileDataModel):
     Publish references showcase
     """
     st.header("References")
-    no_references_in_col = 5
+    no_references_in_col = 4
     for index in range(0, len(user_data.references), no_references_in_col):
         list_col_obj = st.columns(no_references_in_col)
         for i, col_obj in enumerate(list_col_obj):
