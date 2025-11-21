@@ -68,6 +68,12 @@
           "description": "Developed and validated telematics data pipelines by generating mock data for test benches and verifying real-world data collected from trucks.",
           "details": "Generated simulated telematics data to test device data collection and transmission accuracy under controlled environments. Analyzed and validated real truck data to ensure consistency and accuracy across systems. Led governance efforts to verify data integrity, enforcing correct ranges, formats, and data types to maintain reliability and quality standards.",
           "skills_used": ["Python", "AWS S3", "Kafka", "Pandas", "RobotFramework", "Snowflake", "SQL", "Data Validation"]
+        },
+         {
+          "title": "CAN Trace Generator & CAN Trace Decoder",
+          "description": "Developed a keyword bases CAN Trace Generator & CAN Decoder tool supporting CAN & J1939 protocol",
+          "details": "Designed a flexible framework where users can generate CAN/J1939 trace files by defining message sequences and signal behaviors using simple keywords. Implemented a CAN Decoder module that parses recorded vehicle traces, decodes messages and signals, and provides actionable insights for debugging and validation. The tool streamlines ECU testing, scenario simulation, and post-drive analysis, improving efficiency and accuracy across development and test workflows.",
+          "skills_used": ["Python", "CAN", "J1939", "CAN Decoding", "Test Automation", "Embedded Systems", "ECU Testing"]
         }
       ]
     },
