@@ -29,7 +29,7 @@
 /* --- Card Styles (UPDATED DIMENSIONS) --- */
 .card {
     flex-shrink: 0;
-    width: 350px; /* NEW WIDER WIDTH */
+    width: 325px; /* NEW WIDER WIDTH */
     height: 475px; /* Kept from previous step */
     margin-right: 15px;
 
@@ -68,7 +68,7 @@
 
 .card-body {
     flex-grow: 0;
-    font-size: 1.0em;
+    font-size: 0.9em;
     color: #555;
     margin-bottom: 10px;
 }

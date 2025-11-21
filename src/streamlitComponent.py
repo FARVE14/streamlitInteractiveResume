@@ -200,7 +200,7 @@ def publish_project_showcase(user_data: UserProfileDataModel,
             css_content=css_template,
             all_cards_html=all_cards_html
         )
-        html(project_data, height=500)
+        html(project_data, height=600)
 
 
 def publish_skills(user_data: UserProfileDataModel, css_file_path: str | None = None) -> None:
