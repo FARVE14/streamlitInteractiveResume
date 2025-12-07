@@ -7,25 +7,40 @@ __author__ = "Faisal Ahmed"
 
 from pathlib import Path
 import streamlit as st
+import os
+from dotenv import load_dotenv
+from dataclasses import dataclass
 from src import (read_profile_data, publish_sidebar_details, publish_dashboard_details, publish_career_timeline,
                  publish_project_showcase, load_css, load_jss, publish_skills, publish_education, publish_references)
 
-cw_path = Path().absolute()
-assets_path = Path() / "assets"
-image_path = assets_path / "images"
-logo_path = image_path / "logo"
-css_path = assets_path / "css"
-js_path = assets_path / "js"
-data_path = Path() / "data"
+
+load_dotenv()
 
 
+@dataclass
+class ProfileDataContext:
+    user_name: str
 
-user_data =read_profile_data(
-    profile_data_path= data_path / "profile_data.json",
-)
+    def __post_init__(self):
+        cw = Path().absolute()
+        assert_path = cw.joinpath("assets")
+        image_folder_path = assert_path.joinpath("images")
+        data_folder_path = assert_path.joinpath("data")
+        self.css_folder_path = assert_path.joinpath("css")
+        self.js_folder_path = assert_path.joinpath("js")
+        self.logo_folder_path = image_folder_path.joinpath("logo")
+        self.image_path = image_folder_path.joinpath(f"profile_{self.user_name.lower()}.png")
+        self.user_data = read_profile_data(
+            profile_data_path=data_folder_path.joinpath(f"profile_data_{self.user_name.lower()}.json")
+        )
+
+user_config = ProfileDataContext(user_name=os.getenv("USER_NAME", "faisalAhmed").strip().lower().
+                                 replace(" ", ""))
+user_data = user_config.user_data
 
 
 if user_data is None:
+    st.warning("Unable to process user data.")
     st.stop()
 
 st.set_page_config(
@@ -48,8 +63,8 @@ st.write(user_data.profile.summary)
 with st.sidebar:
     publish_sidebar_details(
         user_data=user_data,
-        profile_image_path=image_path,
-        logo_folder_path= logo_path,
+        profile_image_path=user_config.image_path.__str__(),
+        logo_folder_path= user_config.logo_folder_path,
 
     )
 
@@ -69,13 +84,13 @@ with career_timeline:
 with project_show_case:
     publish_project_showcase(
         user_data=user_data,
-    js_template=load_jss((js_path / "slider_script.js").__str__()),
-    css_template=load_css((css_path / "slider_styles.css").__str__(), load=False))
+    js_template=load_jss((user_config.js_folder_path / "slider_script.js").__str__()),
+    css_template=load_css((user_config.css_folder_path / "slider_styles.css").__str__(), load=False))
 
 
 with skills:
     publish_skills(user_data=user_data,
-                   css_file_path= (css_path / "multi_select_styles.css").__str__())
+                   css_file_path= (user_config.css_folder_path / "multi_select_styles.css").__str__())
 
 with education:
     publish_education(user_data=user_data)

@@ -1,0 +1,229 @@
+{
+  "profile": {
+    "name": "Mohammad Danish Khan",
+    "summary": "Senior Account Manager and Hybrid Account Executive with 11+ years of experience in B2B sales, enterprise account management, lead generation, CRM-driven operations, and multi-industry client engagement across technology, manufacturing, education, and government sectors. Consistently recognized with performance awards including Dell President Club (APJ & GC Region). Expert in sales strategy, customer segmentation, cross-functional collaboration, team leadership, and revenue growth execution.",
+    "experience": 11,
+    "title": "Senior Account Manager / Hybrid Account Executive",
+    "contact": {
+      "gmail": "mailto:danish.khanoct14@gmail.com",
+      "linkedIn": "https://www.linkedin.com/in/danish-khan-48a15966/"
+    },
+    "key_skills": [
+      { "Sales Leadership & Strategy": "Expert in driving enterprise, government, and education sales with consistent achievement of 120–150% YoY growth and multi-million-dollar pipelines." },
+      { "Lead Generation & Demand Building": "Strong experience in generating targeted B2B leads, executing outreach campaigns, and running data-backed sales funnels for technology and industrial products." },
+      { "Client Relationship Management": "Built and managed high-value client portfolios, strengthened long-term relationships, and maintained high retention across 5000+ accounts." },
+      { "Cross-functional Collaboration": "Worked with product, finance, technical, marketing, and operations teams to align revenue strategies and execute customer-focused initiatives." },
+      { "Sales Operations & Analytics": "Proficient in CRM management, forecasting, sales reporting, account prioritization, and performance analytics." },
+      { "Negotiation & Deal Closure": "Led enterprise negotiations, prepared proposals, managed pricing strategies, and ensured compliance with company policies." },
+      { "Team Leadership": "Managed and mentored tele-sales and inside-sales teams to improve performance, pipeline generation, and customer engagement." },
+      { "Technical Pre-sales & Industrial Domain Knowledge": "Experience across automation, engineering, food, pharma, chemical, and automotive segments with hands-on technical integration roles early in career." }
+    ],
+    "achievements": [
+      "Dell President Club Awards for APJ & GC Region (2024, 2025)",
+      "140% QoQ and 150% YoY sustained sales growth for seven consecutive quarters",
+      "Consistent revenue delivery of $2.1M per quarter",
+      "Best Sales Performance Awards for Q1 - Q3 FY25",
+      "Most Valuable Team Player - FY24",
+      "Best Team Performance - FY21 & FY24",
+      "Best Sales Performance - FY21, FY23",
+      "First Runner-up in International Society of Automation Project Competition"
+    ]
+  },
+
+  "organization": [
+    {
+      "name": "Dell Technologies",
+      "from_date": "07/2022",
+      "end_date": "Current",
+      "location": "Gurgaon, India",
+      "role": [
+        {
+          "title": "Hybrid Account Executive",
+          "from_date": "07/2022",
+          "end_date": "Current",
+          "responsibilities": [
+            "Managed mid-market, enterprise, education, and government accounts and achieved consistent revenue targets.",
+            "Achieved 140% QoQ and 150% YoY performance for seven straight quarters.",
+            "Secured $2.1M of quarterly revenue while expanding Dell's footprint across key regions.",
+            "Delivered presentations for senior leadership and customer stakeholders.",
+            "Collaborated with cross-functional teams to execute multi-product solutions.",
+            "Led telecalling strategies and drove 60% activity allocation for outbound demand building.",
+            "Managed customer escalations with rapid-resolution workflows.",
+            "Mentored junior account managers to improve selling capability and productivity."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "AI for Youth Initiative - 10 Colleges & Universities",
+          "description": "Led the end-to-end planning and execution of Dell & Intel's AI education program.",
+          "details": "Orchestrated partnerships with academic institutions, coordinated event execution, managed resource allocation, and drove technology adoption across student groups.",
+          "skills_used": ["Program Management", "Stakeholder Collaboration", "Education Sector Sales", "Event Execution", "Cross-functional Coordination"]
+        },
+        {
+          "title": "Enterprise Sales Growth Program",
+          "description": "Designed targeted growth strategy for enterprise and government segments.",
+          "details": "Developed customer engagement frameworks, trained inside-sales teams, and mapped prospecting workflows that resulted in sustained multi-quarter revenue acceleration.",
+          "skills_used": ["Sales Strategy", "CRM Forecasting", "Customer Segmentation", "Team Leadership"]
+        }
+      ]
+    },
+
+    {
+      "name": "Markem Imaje India Pvt. Ltd.",
+      "from_date": "12/2019",
+      "end_date": "06/2022",
+      "location": "Bhiwadi, India",
+      "role": [
+        {
+          "title": "Senior Account Manager",
+          "from_date": "12/2019",
+          "end_date": "06/2022",
+          "responsibilities": [
+            "Led sales for food, pharma, chemical, engineering, and automotive sectors.",
+            "Managed 5000+ accounts across B/C/D/E categories.",
+            "Developed strategic sales initiatives and achieved 20%+ quarterly growth.",
+            "Collaborated with cross-functional teams to support solution development.",
+            "Built and sustained strong customer relationships and retention."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Industrial Coding & Marking Solutions Rollout",
+          "description": "Managed solution deployment across multi-industry clients.",
+          "details": "Led requirement mapping, equipment demonstration, pilot testing, pricing, and service coordination for high-volume manufacturing customers.",
+          "skills_used": ["Industrial Sales", "Technical Demonstration", "Customer Relationship Management", "Pricing Strategy"]
+        }
+      ]
+    },
+
+    {
+      "name": "Mettler Toledo",
+      "from_date": "04/2018",
+      "end_date": "12/2019",
+      "location": "Mumbai, India",
+      "role": [
+        {
+          "title": "Account Manager - Inside Sales",
+          "from_date": "04/2018",
+          "end_date": "12/2019",
+          "responsibilities": [
+            "Managed key accounts and generated recurring sales.",
+            "Consistently exceeded sales goals through targeted outreach.",
+            "Prepared pricing and proposal documentation.",
+            "Strengthened client retention and pipeline conversions."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Precision Weighing Solutions Expansion",
+          "description": "Drove adoption of weighing technologies across industrial clients.",
+          "details": "Conducted client requirement analysis, technical consultations, and prepared competitive pricing models.",
+          "skills_used": ["Inside Sales", "Proposal Management", "Customer Needs Analysis"]
+        }
+      ]
+    },
+
+    {
+      "name": "Siemens Ltd.",
+      "from_date": "04/2015",
+      "end_date": "04/2018",
+      "location": "Mumbai, India",
+      "role": [
+        {
+          "title": "Service Sales Specialist",
+          "from_date": "04/2015",
+          "end_date": "04/2018",
+          "responsibilities": [
+            "Identified and addressed customer needs using strong technical and negotiation skills.",
+            "Coordinated SITRAIN technical training programs across industries.",
+            "Supported marketing campaign alignment across internal teams.",
+            "Conducted customer orientation and training sessions."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "SITRAIN Industrial Training Deployment",
+          "description": "Delivered Siemens training programs across colleges and industries.",
+          "details": "Organized orientation sessions, coordinated faculty resources, and supported program delivery.",
+          "skills_used": ["Training Facilitation", "Client Engagement", "Cross-functional Coordination"]
+        }
+      ]
+    },
+
+    {
+      "name": "Global Energy Technologies Pvt. Ltd.",
+      "from_date": "03/2014",
+      "end_date": "04/2015",
+      "location": "Mumbai, India",
+      "role": [
+        {
+          "title": "Technical Process Executive",
+          "from_date": "03/2014",
+          "end_date": "04/2015",
+          "responsibilities": [
+            "Streamlined operational processes to improve efficiency.",
+            "Conducted audits and documentation for compliance.",
+            "Handled installation and configuration of field instruments.",
+            "Supported PLC/HMI communication setup and data acquisition.",
+            "Trained team members on technical workflows."
+          ]
+        }
+      ],
+      "projects": [
+        {
+          "title": "Industrial Process Optimization & Instrumentation Setup",
+          "description": "Delivered technical improvements for plant instrumentation and data monitoring.",
+          "details": "Installed transmitters, configured systems, and improved data accuracy for audits.",
+          "skills_used": ["Instrumentation", "Process Engineering", "Technical Documentation"]
+        }
+      ]
+    }
+  ],
+
+  "personalProjects": {
+    "name": "Independent Projects",
+    "projects": []
+  },
+
+  "skills": [
+    { "category": "Sales & Business Development", "technologies": ["B2B Sales", "Enterprise Sales", "Inside Sales", "Lead Generation", "Account Forecasting"] },
+    { "category": "CRM Tools", "technologies": ["Salesforce", "HubSpot", "Zoho CRM"] },
+    { "category": "Technical Skills", "technologies": ["Instrumentation Setup", "PLC/HMI Interface", "Industrial Automation Basics"] },
+    { "category": "Soft Skills", "technologies": ["Negotiation", "Communication", "Team Leadership", "Stakeholder Collaboration"] }
+  ],
+
+  "education": [
+    {
+      "institute_name": "Southern New Hampshire University / ITM",
+      "degree_name": "MBA",
+      "course_name": "Operations",
+      "from_date": "2016",
+      "end_date": "2018",
+      "overview": null
+    },
+    {
+      "institute_name": "University of Mumbai",
+      "degree_name": "Bachelor of Engineering",
+      "course_name": "Instrumentation Technology",
+      "from_date": "2010",
+      "end_date": "2013",
+      "overview": null
+    },
+    {
+      "institute_name": "Maharashtra State Board of Technical Education",
+      "degree_name": "Engineer's Diploma",
+      "course_name": "Instrumentation Engineering",
+      "from_date": "2007",
+      "end_date": "2010",
+      "overview": null
+    }
+  ],
+
+  "certificates": [],
+
+  "references": []
+}
