@@ -60,13 +60,13 @@ def read_profile_data(profile_data_path:str | Path) -> UserProfileDataModel | No
 @st.cache_data
 def publish_sidebar_details(
         user_data: UserProfileDataModel,
-        profile_image_path: Path,
+        profile_image_path: str,
         logo_folder_path: Path
 ) -> None:
     """
     Publish sidebar details
     """
-    st.image(image=profile_image_path / "profile.png", width='stretch')
+    st.image(image=profile_image_path, width='stretch')
     st.divider()
     user_profile_contact_data = user_data.profile.contact
     for index, keys in enumerate(user_data.profile.contact.keys()):
